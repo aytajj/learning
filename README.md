@@ -99,3 +99,5 @@ ve JWT sirri burdadir.
   `@OneToMany` olardi (bir istifadecinin bir nece hesabi ola biler), sonraki
   addim kimi bunu genişlendirmeyi düşün.
 # learning
+
+https://claude.ai/code/artifact/3210905e-53a3-4618-bb92-9a5457d3c5e1
