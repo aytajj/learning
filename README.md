@@ -98,3 +98,4 @@ ve JWT sirri burdadir.
 - `User` ve `Account` arasinda `@OneToOne` elaqe var — real bankda bu
   `@OneToMany` olardi (bir istifadecinin bir nece hesabi ola biler), sonraki
   addim kimi bunu genişlendirmeyi düşün.
+# learning
