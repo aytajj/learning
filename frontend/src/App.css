@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0f172a;
+  color: #1e293b;
+}
+
+.auth-page,
+.dashboard-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.auth-card,
+.dashboard-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-card {
+  max-width: 460px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  margin: 12px 0 4px;
+  color: #475569;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+form button[type='submit'] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+}
+
+form button[type='submit']:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.switch-link {
+  margin-top: 16px;
+  font-size: 13px;
+  text-align: center;
+  color: #64748b;
+}
+
+.switch-link a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.success {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.logout-btn {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 8px 14px;
+}
+
+.balance-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #eff6ff;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.balance-box h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #1d4ed8;
+}
+
+.transaction-form {
+  margin-top: 20px;
+}
+
+.transaction-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.transaction-buttons button {
+  flex: 1;
+  padding: 12px;
+}
+
+.transaction-buttons button:first-child {
+  background: #16a34a;
+  color: white;
+}
+
+.transaction-buttons button:last-child {
+  background: #dc2626;
+  color: white;
+}
